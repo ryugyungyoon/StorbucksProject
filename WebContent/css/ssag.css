@@ -1,0 +1,377 @@
+@charset "UTF-8";
+
+	.main_content2_p3{
+		width:1020px;
+		min-height:1400px;
+		margin: 0 auto;
+	}
+	.textsize {
+		width:100%; 
+		height:40px; 
+		border:1px solid #e0e0e0;
+	}	
+	.content_p3{
+		min-height:1300px;
+	}
+	.head_title_p3{
+		font-size: 40px;
+    	padding: 34px 0 10px;
+	}
+	.head_content_p3{
+		padding: 13px 65px;
+    	border-top: 4px solid black;
+    	border-bottom: 4px solid black;
+	}
+	.content2-1_title2_p3{
+	    padding: 17px 0px 20px;
+	    font-size: 18px;
+	    color: gray;
+	}
+	.content2-1_main_p3{
+		text-align: center;
+	    height: 229px;
+	    margin: 27px 0px;
+	}
+	.birth_coupon_p3{
+		margin-top: 20px;
+	    font-size: 21px;
+	    letter-spacing: -0.5px;
+	}
+	.button_p3{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.button2_p3{
+		width:330px;
+		height:62px;
+		font-size:21px;
+		background:#ff5b59;
+		color:#fff;
+		line-height:1.2;
+		border:0;
+		display:block;
+    	margin:auto;
+	}
+	.join_sns_p3{
+		text-align:center;
+	}
+	.sns_img_p3{
+		width:105px;
+		height:110px;
+		padding-left:20px;
+		font-size:16px;
+		line-height: 32px;
+		text-align:center;
+	}
+	.button3_p3{
+		width:378px;
+		height:62px;
+		font-size:21px;
+		background:#ffffff;
+		line-height:1.2;
+		display:block;
+    	margin:auto;
+	}
+	/* 슬라이드4 */
+	
+	.half_top_p4{
+		width:1020px;
+		height:546.48px;
+	}
+	.info_p4{
+		border-bottom: 4px solid #222;
+	}
+	.line_p4{
+		width:1020px;
+		min-height:71px;
+		border-bottom: 1px solid #eee;
+	}
+	.half_bottom_p4{
+		width:1020px;
+		height:491.02px;
+	}
+	.bottom1-1_p4{
+		width:1020px;
+		height:191.7px;
+	}
+	.b_content_p4{
+		width:1020px;
+		height:165px;
+	}
+	.b_little_title_p4{
+		width:119.99px;
+		height:17.81px;
+		margin:0;
+		float:left;
+	}
+	.bottom2-1_p4{
+		width:1020px;
+		height:154.73px;
+	}
+	.bottom2-2_p4{
+		width:1020px;
+		height:127.75px;
+	}
+	.b_content2_p4{
+		width:843px;
+		height:50px;
+	}
+	.last_bottom_p4{
+		text-align: center;
+		padding: 15px 0px;
+	}
+	.info_dt_p4{
+		float:left;
+		width:142px;
+	}
+	.star_p4{
+		font-size:28px;
+		color:#ff5b59;
+	}
+	.font_p4{
+		padding-top:0px;
+		font-size:13px;
+		font-family: Roboto-Medium, NanumBarunGothicBold, dotum, sans-serif;
+	}
+	.info_div2_p4{
+		float:left;
+		width:375px;
+	}
+	.info_div3_p4{
+		float:left;
+		width:150px;
+		height:40px;
+		padding-bottom:5px; 
+	}
+	.con_p4{
+		border: 1px solid #e0e0e0;
+	    font-size: 14px;
+	    margin-left: 13px;
+	    background-color: #e8e8e8;
+	    width: 104px;
+	    height: 44px;
+	}
+	.main_content2_p4 {
+		width:1020px;
+		margin:auto;
+	}
+	.bc_1_p4{
+		width:900px;
+		height:30px;
+		float:left;
+		margin-top:20px
+	}
+	.bc_2_p4{
+		width:395px;
+		height:19px;
+		margin:auto 0;
+	}
+	.bc_3_p4{
+		width:900px;
+		height:30px;
+		float:left;
+		margin-top:20px;
+		margin-left:120px;
+	}
+	.con2_p4{
+		border: 1px solid #e0e0e0;
+		font-size:14px;
+		margin-left:1px;
+		background-color:#e8e8e8;
+		width:104px;
+		height:39px;
+	}
+	.ul_info_p4{
+		width:843px;
+		height:45px;
+		margin-top:30px;
+		margin-left:136px;
+		float:left;
+	}
+	.join_p4{
+      	width: 217px;
+	    height: 48px;
+	    border: 0;
+	    background-color: #ff5b59;
+	    font-size: 29px;
+	    color: white;
+	    font-family: 'Cafe24Ssurround';
+	    padding: 10px;
+	    border-radius: 10px;
+	}
+	.mg_p4{
+		margin-top:7px;
+	}
+	
+	
+	/* 슬라이드9 */
+	
+	.main_content2_p9{
+		width:1020px;
+		margin:0 auto;
+	}
+	.head_title_p9{`
+		padding-bottom: 10px;
+	}
+	.content_head_title_p9{
+		border-top:2px solid black;
+	}
+	.member_content1-1_p9{
+		height:56px;
+	}
+	.member_content2_p9{
+		min-height: 45px;
+	    border-bottom: 1px solid black;
+	    margin: 22px 0px;
+	}
+	.member_content2-1_p9{
+		width:200px;
+		height:20px;
+		float:left;
+		font-weight:bold;
+		letter-spacing:-0.3px;
+	}
+	.member_content2-2_p9{
+		width:600px;
+		float:left;
+	}
+	.select_area_p9{
+		float: left;
+	}
+	.select_area2_p9{
+		width:500px;
+		height:35px;
+		background-color:white;
+		border: 1px solid #e0e0e0;
+		padding: 0px 0px 0px 0px;
+		float:left;
+	}
+	.member_content2-3_p9{
+		padding:12px 0px;
+	}
+	.content_order_p9{
+    	margin: 50px 0px;
+	}
+	.content_order3_p9{
+		height:132px;
+		border-top:1px solid #eee;
+		border-bottom:1px solid #eee;
+	}
+	.content_order3-1_p9{
+		width:90px;
+		height:90px;
+		float:left;
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	.content_order3-2_p9{
+		width:620px;
+		height:90px;
+		float:left;
+		padding:20px;
+	}
+	.content_order3-3_p9{
+		width:158px;
+		height:90px;
+		float:left;
+		padding:20px 0px 20px 20px;
+		border-left:1px solid #eee;
+	}
+	.content_order_price_p9{
+		width:154.5px;
+		height:27px;
+		text-indent:initial;
+		border-spacing:2px;
+		padding-top:8px;
+	}
+	.amount-font_p9{
+		display:block;
+		width:15px;
+		padding-bottom:10px;
+	}
+	.sale_title_p9{
+		border-top:2px solid #222;
+		}
+	.sale_info2_p9{
+		border-bottom:1px solid #eee;
+	}
+	.sale_info2-1_p9{
+		width:200px;
+		float:left;
+	}
+	.sale_info2-2_p9{
+		width:730px;
+		float:left;
+	}
+	.sale_info2-l_p9{
+		height: 37px;
+	}
+	.pay_info_p9{
+		text-align: center;
+		border-top:2px solid #222;
+	}
+	.pay_info2_p9{
+		text-align: center;
+		border: 4px solid #eee;
+	    margin-top: 20px;
+	    padding: 20px 5px;
+	    font-size: 15px;
+	    letter-spacing: -0.3px;
+	}
+	.pay_info2-1_p9{
+		min-width:130px;
+		min-height:20px;
+		display:inline-block;
+		text-align:left;
+		vertical-align:top;
+	}
+	.pay_info2-1-1_p9{
+		height:15px;
+		color:#777;
+		font-size:12px;
+		line-height:15px;
+	}
+	.button-size_p9{
+		border-radius: 12px;
+	    width: 38%;
+	    height: 70px;
+	    font-size: 38px;
+	    background: #ff5b59;
+	    color: #fff;
+	    border: 0;
+	    font-family: 'Cafe24Ssurround';
+	}
+	.padding2_p9{
+		padding:15px 0px 15px;
+	}
+	.float_r_p9{
+		float:right;
+		font-weight:bold;
+	}
+
+	/* 회사소개 */
+	
+	.main_content_bot{
+		width:1280px;
+		height:481px;
+		padding-top:30px;
+	}
+	.title_bot{
+		height:25px;
+	}
+	.content_bot{
+		padding:20px 0px 70px;
+		height:338px;
+	}
+	.content_top_bot{
+		min-height:127px;
+		margin:24px;
+	}
+	.content_bottom_bot{
+		height:101px;
+		margin:23px;
+	}
+	.content_top2_bot{
+		width:617px;
+		min-height:127px;
+	}

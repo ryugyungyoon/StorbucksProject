@@ -1,0 +1,346 @@
+@charset "UTF-8";
+
+a{
+	text-decoration: none;	!important;
+} 
+/* ----------- Header.jsp CSS -------------------- */
+body{
+	font-family: 'Cafe24Ssurround';
+}
+button{
+	cursor:pointer;
+}
+@font-face{
+	font-family : 'Cafe24Ssurround';
+	src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+	font-weight:normal;
+	font-style:normal;
+}
+	
+.main_content{
+	width:100%;	
+	margin:0 auto; 
+}
+.logo_section{
+   	width: 980px;
+	height: 125px;
+   	margin: 0 auto;
+	}
+.util_menu{
+	text-align: right;
+   	font-size: 17px;
+}
+.logo{
+	cursor:pointer;
+	float:left;
+}
+.logo_img{
+	height:100px;
+}
+.loginPage{
+	display: inline-block;
+	width: 50px;
+	border-right: 1px solid black;
+	padding-right: 6px;
+}
+.registerPage{
+	display: inline-block;
+}
+.searchPage{
+	position: absolute;
+	top: 21px;
+	left: 344px;
+	cursor:pointer;
+}
+.searching_box{
+    float: left;
+    position: relative;
+    margin: 20px;
+    width: 369px;
+    height: 70px;
+    background: #fff;
+}
+.mainSearch{
+	position: absolute;
+    top: 25px;
+    width: 339px;
+    font-size: 23px;
+    font-family: 'Cafe24Ssurround';
+    border: 0;
+    border-bottom: 2px solid green;
+}
+.div_image{
+  	float: left;
+    margin-top: 35px;
+    text-align: center;
+    width: 260px;
+}
+.gotoMypageWishList, .gotoMypageOrderList, .gotoMypageMain{
+	margin: 0 10px;
+    width: 45px;
+    height: 45px;
+    cursor:pointer;
+}
+.mainTitle{
+	width:100%;
+	background-color:#1E3932;
+}
+#main_menu{
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 987px;
+}
+.main_menu2{
+	color: white;
+   	font-size: 25px;
+	cursor:pointer;
+	padding:0 18px;
+}
+/* ----------------MainPage.jsp CSS------------------- */
+.main_home_content {
+	overflow: hidden;
+	width:1180px;
+	margin:0 auto;
+}
+.bxslider>li>div {
+	width:1460px;
+	height:493px;
+	background-color: #006241;	
+	float:left;	
+	position:relatice;			
+	display:block;
+	width:100%;
+}	
+.advertise_fl {
+	width: 51%;
+    float: left;	    
+    vertical-align: top;	   
+    left: 24px;
+    top: 15px;	    
+}
+.advertise_text {
+    width: 40%;	   
+    line-height: 45px;
+    font-size: 40px;
+    color: #ffffff;
+    float:left;
+    height:150px;
+    margin-top: 156px;
+    text-align:center;
+}
+.text {		
+	font-size:15px;
+	margin-bottom:-23px;
+}
+.text1 {
+	font-size:15px;
+	margin-top:35px;
+	margin-bottom:-25px;
+}
+.text2 {font-size:15px;}
+.bxslide_under {	   
+	position: relative;
+   	padding-top: 380px;
+    background-repeat: no-repeat;	   
+    background-size: 1177px auto;
+}
+.slideText{
+	position: absolute;
+    top: 100px;
+    left: 435px;
+    z-index: 5;
+    text-align: center;
+}
+.sbux_heading_top {font-size: 38px;}
+.sbux_tag {font-size: 28px;color: #777;}
+.sbux_item {height: 461px;margin: 53px -13px;}
+.thmb_1st  {list-style:none;}
+.thmb_1st>.tum1 {margin-right:20px;width:260px;}
+.thmb {
+	overflow:hidden;
+	position: relative; 
+	border-radius: 16px;
+	width:250px;
+	height:300px;
+	cursor:pointer;
+}
+.thmb>img {
+	border-radius:16px; 
+	width:250px; 
+	height:300px; 
+	transition: all 1.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.thmb>img:hover {transform: scale(1.2);}
+.sb_mini_image {
+	width: 118px;
+    height: 21px;
+    margin: 5px 0px;
+}
+.subtext {letter-spacing: -2px; font-size: 18px;}
+.price {margin: 7px 0px 0px;font-size: 30px;}
+.sub_price {font-size: 23px;margin: 0px 0px 0px 2px;}
+.rating{height: 23px;}
+.Blackstars{width:20px; height:20px;}
+.Whitestars{width:20px; height:20px; margin-left:-4px;}
+.sbux_heading {text-align: center;}
+.sbux_item ul > li {
+	float:left;
+	margin-left:5px;
+	list-style:none;
+}	
+.sbux_best_item ul > li {
+	float:left;
+	list-style:none;
+	margin-bottom: 40px;
+}
+.bestitem {
+	width:376px;
+}
+.bestitem>div.bestitem_div_image>img, .bestitem>img {
+	/*transition: all 1.5s ease-in-out;*/
+    transition: all 1.4s cubic-bezier(0.65, 0.05, 0.36, 1);
+	width:340px;
+	height:340px;
+	margin-right:10px;
+	border-radius:8px;
+}
+.bestitem>div.bestitem_div_image>img:hover, .bestitem>img:hover {
+	transform: scale(1.3);
+}
+.best_number {			
+	font-size:18px;
+	font-weight:bold;
+	margin-top:15px;
+}
+.bestitem_div_image {
+	border-radius: 8px;
+    overflow: hidden;
+    width: 340px;
+    height: 340px;
+    cursor:pointer;
+}
+.bestitem_div_p {
+	position:absolute;
+	margin-top:-45px; 
+	border-bottom-right-radius: 8px; 
+	border-bottom-left-radius: 8px; 
+	background-color: rgba(0, 0, 0, 0.45);
+}
+.bestitem_div_p>p {
+	font-size: 13px; 
+	letter-spacing: -0.33px; 
+	color: #fff; 
+	display: block; 
+	width:285px; 
+	padding: 1px 40px 1px 15px;
+}
+.bestitem_won {
+	font-size:13px;
+	margin-top:5px;
+}
+.button_productMore {
+    padding:50px 0 100px; 
+}
+.button_more {		
+    font-size: 26px;
+    font-family: 'Cafe24Ssurround';
+    transition-duration: 0.4s;
+    margin-top: 36px;
+    display: block;
+    width: 58%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.button_more:hover {
+	background-color: #006241;
+	color:white;
+}
+/* ----------footer ----------*/
+.footer{
+    font-size: 23px;
+	padding: 15px;
+    width: 1358px;
+    margin: 0px auto;
+    border-top: 1px solid #e4e4e4;
+    color: #5f5252;
+}
+.footer div{
+	margin: 4px 0px;
+}	
+.footerHead{
+	font-size:40px;
+}
+
+/*   구매내역에서 리뷰 보기/수정      */
+	#click_submit, #click_modify,#click_delete, #btn_close { 
+		  background-image: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%);
+          margin-left:10px;
+          padding: 10px 20px;
+          text-align: center;
+          transition: 0.5s;
+          background-size: 200% auto;
+          color: white;            
+          border-radius: 10px;
+          display: inline-block;
+          border:none;
+        }
+
+     #click_submit:hover, #click_modify:hover ,#click_delete:hover, #btn_close:hover {
+          background-position: right center; /* change the direction of the change here */
+          color: #fff;
+          text-decoration: none;
+          border:none;
+        }
+    #click_submit,#click_modify {margin-left:38px;}     
+	.title{
+		width: 40%;
+	    height: 26px;
+	    margin: 0 10px 10px 10px;
+	} 
+	.reviewContent{
+		vertical-align: middle;
+	    width: 70%;
+	    height: 150px;
+	    text-align: center;
+	}
+	.reviewContent, .mypageReviewRating {
+		margin:0 10px 10px 10px;
+	}
+	.mypageReviewRating {
+		width:35px;
+		height:25px;
+	}
+	.title, .reviewContent, .mypageReviewRating {
+		background: transparent;
+		border:1px solid #fff;
+		border-radius:12px;
+	}
+/* 모달                                   */
+.modal{
+	display: none; 
+    position: fixed; 
+    z-index: 1; 
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal_content {
+    background-image: url(../Images/Allshare/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+	

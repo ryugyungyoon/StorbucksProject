@@ -1,0 +1,766 @@
+@charset "UTF-8";
+
+p, ul, ol, li, button {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.myPageMain {
+	width:1020px;
+	min-height:700px;
+	margin:0 auto;
+	}
+.myPageMain1 {
+	position: relative;
+    border-top: 1px solid #d1dadd;
+    border-left: 1px solid #d1dadd;
+    border-right: 1px solid #d1dadd;
+    border-bottom: 3px solid black;
+    margin-top: 40px;
+    height: 107px;
+    padding: 0px;
+    background-color: #f3fafe;
+}
+/* main1속성값안에 들어갈 것들 */
+.head3 {
+	    margin-top: 6px;
+    width: 89px;
+    height: 95px;
+    float: right;
+}
+.menu {
+	cursor:pointer;
+	float: left;
+	width: 81px;
+	height: 83px;
+	margin-top: 9px;
+	background-image: url(../Images/mypageMainPic/전체보기.gif);
+	background-repeat: no-repeat;
+}
+/* main1속성값안에 들어갈 것들 */	
+
+/*mypageMain1 첫번재줄 css --------------------------*/
+	.mypageArea {
+		display:none;
+		position: absolute;
+	    width: 806px;
+	    min-height: 230px;
+	    border: 5px solid yellow;
+	    top: 102px;
+	    left: 88px;
+	    z-index: 5;
+	    background-color: white;
+	}		
+	.mypage2 {
+		float:left;
+		width:200px;
+		height:52px;
+		background:#e0effd;
+		border-right:1px solid #d1dadd;
+	}
+	.mypage3 {
+		float:left;
+		width:200px;
+		height:52px;
+		background:#e0effd;
+		border-right:1px solid #d1dadd;
+	}
+	.mypageHead1 {
+		padding-left:18px;
+		display:block;
+		width:148px;
+		text-align:left;
+		color:#203a4d;
+		font-family:NanumBarunGothic;
+		font-size:17px;
+		font-weight:bold;
+		line-height:62px;
+		height:52px;
+	}
+	.mypagedate {
+		padding-top:16px;
+		margin:-1px;
+		font-size:12px;
+	}
+	.mypagedate1{
+		padding-top:16px;
+		margin:-1px;
+		font-size:12px;
+		border-left:1px solid #d1dadd;
+	}
+	.red {
+		font-weight:bold;
+		color:#e24f4f;
+		text-decoration:none;
+	}
+	.menutext {
+		text-align: right;
+	    letter-spacing: -0.5px;
+	    font-size: 23px;
+	    line-height: 35px;
+	    margin-right: 11px;
+	}
+	em {
+		font-style:normal;
+		display:inline;
+	}
+/*mypageMain1 첫번재줄 css --------------------------*/
+
+/*마이페이지 메인화면 css*/
+.secondLine {
+    height: 165px;
+    margin-top: -11px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #d1dadd;
+}
+.thirdLine25 {
+    float: left;
+    padding: 29px;
+    width: 194px;
+	border-left: 1px solid #d1dadd;	    
+}
+.thirdLine25-1 {
+    float: left;
+    padding: 29px;
+    width: 196px;
+}
+.clickable {
+   	font-size: 24px;
+    text-align: center;
+    padding-top: 22px;
+    letter-spacing: -0.5px;
+}
+.clicktext1 {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: red;
+    text-decoration: underline;
+}
+.clicktext2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 14px;
+    color: black;
+}
+.clickable5 {
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 83px;
+    letter-spacing: -0.5px;
+}
+.clickableImage1 {
+    float: right;
+    padding-right: 73px;
+    height: 36px;
+}
+.clickable6 {
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 45px;
+    letter-spacing: -0.5px;
+}
+.clickableImage2 {
+    float: right;
+    padding-right: 38px;
+    height: 36px;
+}
+.clickable7 {
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 61px;
+    letter-spacing: -0.5px;
+}
+.clickableImage3 {
+    float: right;
+    padding-right: 61px;
+    height: 36px;
+}
+/*마이페이지 메인화면 css*/
+
+.myPageMain2 {
+    float: left;
+    width: 194px;
+}
+/* main2속성값안에 들어갈 것들 */
+.myPageMain2Text span{
+	font-size: 20px;
+    padding-left: 42px;
+    letter-spacing: -0.5px;
+    line-height: 54px;
+    color: #474040f7;
+    height: 58px;
+    display: block;
+    cursor: pointer;
+} 
+.myPageMain2MenuPic1 {
+	background-image:url("../Images/myPageMain2/메뉴1.png");
+	background-repeat:no-repeat;
+}
+.myPageMain2MenuPic1:hover {
+	background-image:url("../Images/myPageMain2/메뉴1-1.png");
+	background-repeat:no-repeat;
+	color:white;
+}
+.myPageMain2MenuPic2 {
+	background-image:url("../Images/myPageMain2/메뉴2.png");
+	background-repeat:no-repeat;
+}
+.myPageMain2MenuPic2:hover {
+	background-image:url("../Images/myPageMain2/메뉴2-1.png");
+	background-repeat:no-repeat;
+	color:white;
+}
+.myPageMain2MenuPic3 {
+	background-image:url("../Images/myPageMain2/메뉴3.png");
+	background-repeat:no-repeat;
+}
+.myPageMain2MenuPic3:hover {
+	background-image:url("../Images/myPageMain2/메뉴3-1.png");
+	background-repeat:no-repeat;
+	color:white;
+}
+.myPageMain2MenuPic4 {
+	background-image:url("../Images/myPageMain2/메뉴4.png");
+	background-repeat:no-repeat;
+	}
+.myPageMain2MenuPic4:hover {
+	background-image:url("../Images/myPageMain2/메뉴4-1.png");
+	background-repeat:no-repeat;
+	color:white;
+}
+.myPageMain2MenuPic5 {
+	background-image:url("../Images/myPageMain2/메뉴5.png");
+	background-repeat:no-repeat;
+}
+.myPageMain2MenuPic5:hover {
+	background-image:url("../Images/myPageMain2/메뉴5-1.png");
+	background-repeat:no-repeat;
+	color:white;
+}
+.myPageMainDetail {
+	display: none;
+   	padding-top: 9px;
+  	padding-bottom: 9px;
+	background-color:#e9f8ff;
+}
+.myPageMainDetail li{
+  	color: red;
+    padding-left: 28px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+/* main2속성값안에 들어갈 것들 */
+.myPageMain3 {
+    width: 790px;
+    min-height: 800px;
+    margin-left: 230px; /*이거홈피엔 padding-left로 되어있음 */ 
+}
+/* main3속성값안에 들어갈 것들 */
+.myPageMain3firstLine {
+    margin-bottom: 12px;
+    padding-left: 10px;
+    font-size: 19px;
+    color: #203a4d;
+    background: url(../Images/orderListPic/pipe.gif) no-repeat 0 3px;
+    border-bottom:1px solid black;
+}
+.myPageMain3secondLine {
+	margin-top: 20px;
+   	margin-bottom: 40px;
+}
+.notice {
+	min-height:50px;
+	font-size:13px;
+	color:#777;
+	letter-spacing:-1px;
+	text-align:left;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+.notice h3{
+	padding-left: 20px;
+    background-image: url(../Images/mypageCouponPic/느낌표.gif);
+    background-size: 18px 16px;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #d1dadd;
+}
+.notice li{
+	padding-top:10px;
+}
+.orderList {
+	height:40px;
+	background-color:#dbd7d7;
+	border-top: 1px solid #8c8888;
+	border-bottom: 1px solid #8c8888;
+}
+.orderListColumn1 {
+	float: left;
+	width: 157px;
+	text-align: center;
+	line-height: 38px;
+    border-left:1px solid #8c8888;
+}
+.orderListColumn2 {
+    float: left;
+    width: 198px;
+    text-align: center;
+    line-height: 38px;
+    border-left:1px solid #8c8888
+}
+.orderListColumn3 {
+    float: left;
+    width: 272px;
+    text-align: center;
+    line-height: 38px;
+    border-left:1px solid #8c8888;
+}
+.orderListColumn4 {
+    float: left;
+    width: 154px;
+    text-align: center;
+    line-height: 38px;
+    border-left:1px solid #8c8888;
+    border-right:1px solid #8c8888;
+}
+.noList {
+    margin: auto;
+    width: 473px;
+    height: 157px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 161px;
+    background-image: url(../Images/orderListPic/느낌표.gif);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left center;
+}
+.change_btn { 
+    width: 164px;
+    text-align: center;
+    height: 21px;
+    display: block;
+    background-color: #f14f4f;
+    font-size: 16px;
+    color: #fff;
+     border:none;
+    margin: auto;   
+    cursor: pointer;
+}
+/* main3속성값안에 들어갈 것들 */
+/*구매내역 있을떄*/
+	.orderListCatalog{
+	    font-size: 0;
+	    height: 40px;
+	    margin-top: 5px;
+	    background-color: #edebeb;
+	}
+	.orderListCatalog span{
+	    display: inline-block;
+		margin:10px 0;
+		font-size: 15px;
+	    color: gray;
+	    text-align: center;
+	    font-weight: bold;
+	}
+	.orderListDate{
+		border-right: 1px dotted gray;
+	    width: 158px;
+	}
+	.orderListNum{
+		border-right: 1px dotted gray;
+		width:198px;
+	}
+	.orderListName{
+		border-right: 1px dotted gray;
+		width:272px;
+	}
+	.orderListReview{
+		width:156px;
+	}
+	
+   .draftReview, .showReview {
+      background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%);
+      height:30px;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;            
+      border-radius: 10px;
+      border:none;
+      display:inline-block;
+      padding:5px;
+   }
+/*구매내역있을떄*/
+
+/* 배송지 환불계좌 관리*/ 
+.addressList {
+	overflow:hidden;
+	margin: 4px 0;
+	min-height: 35px;
+    background-color: #edebeb;
+    font-size:15px;
+}
+.addressListColumn1 { /*이걸 나중에 css통합으로 퉁칠꺼임 좋아요관리나 구매내역관리 등등에 통합하여 쓸 style */
+	border-right: 1px dotted gray;
+    margin: 5px 0;
+    height: 58px;
+    line-height: 55px;
+    float: left;
+    width: 113px;
+    text-align: center;
+}
+.addressListColumn2 {
+	border-right: 1px dotted gray;
+    margin: 5px 0;
+    height: 58px;
+    line-height: 55px;
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+.addressListColumn3 {
+	border-right: 1px dotted gray;
+    margin: 5px 0;
+    height: 58px;
+    line-height: 55px;
+    float: left;
+    font-size: 14px;
+    width: 385px;	
+    text-align: center;
+}
+.addressListColumn4 {
+	margin: 5px 0;
+    height: 58px;
+    line-height: 35px;
+    float: left;
+    width: 138px;
+    text-align: center;
+}
+.addressList button {
+	margin:auto;
+	width:45px;
+}
+/* 배송지 환불계좌 관리*/ 
+
+/*비밀번호 변경*/
+.passwordCheck {
+    margin: auto;
+    width: 500px;
+    height: 141px;
+    padding-top: 32px;
+    padding-bottom: 15px;
+}
+.passwordText {
+    letter-spacing: -1.5px;
+    line-height: 35px;
+    margin: auto;
+    float: left;
+    width: 165px;
+    height: 30px;
+    padding-top: 14px;
+    padding-bottom: 9px;
+    font-size: 24px;
+    margin-left: 37px;
+}
+.passwordDoubleCheck {
+    float: right;
+    width: 236px;
+    height: 30px;
+    padding-top: 14px;
+    padding-bottom: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.password{
+    width: 200px;
+    height: 28px;
+    font-size: 35px;	
+}
+/*비밀번호 변경*/
+
+/*쿠폰*/
+	.chooseAll{
+	    height: 20px;
+	    font-size: 12px;
+	    margin: auto;
+	    width: 251px;
+	    padding-top: 18px;
+	}
+	.couponList1 {
+	    border: 1px dashed #c4c0c0;
+	    height: 80px;
+	    margin-left: 268px;
+	    margin-right: 274px;
+	    margin-bottom: 10px;
+	    background-image: url(../Images/mypageCouponPic/coupon1.png);
+	    background-repeat: no-repeat;
+	    background-size: 250px 90px;
+	}
+	.couponList2 {
+    	border: 1px dashed #c4c0c0;
+		height: 80px;
+	    margin-left: 268px;
+	    margin-right: 274px;
+	    margin-top: 21px;
+	    margin-bottom: 10px;
+	    background-image: url(../Images/mypageCouponPic/coupon2.png);
+	    background-repeat: no-repeat;
+	    background-size: 250px 90px;
+	}
+	.couponList3 {
+	    border: 1px dashed #c4c0c0;
+	    height: 80px;
+	    margin-left: 268px;
+	    margin-right: 274px;
+	    margin-top: 21px;
+	    margin-bottom: 10px;
+	    background-image: url(../Images/mypageCouponPic/coupon3.png);
+	    background-repeat: no-repeat;
+	    background-size: 250px 90px;
+	}
+	.downloadableCoupon {
+	letter-spacing: -0.5px;
+	text-decoration: underline;
+	padding-left: 30px;
+	color: grey;
+}
+/*쿠폰*/
+
+/*회원정보 변경*/
+.changeMemberMainText h3 {
+		margin-bottom:10px;
+		color:#203a4d;
+		line-height:22px;
+		letter-spacing:-1px;
+		text-align:left;
+	}
+	.changeMemberMainText p {
+		font-size:14px;
+		padding-bottom:15px;
+		border-bottom: 1px solid black;
+	}
+	.changeMemberMainText b {
+		color:red;
+	}
+	.lineUnity {
+	padding: 20px 10px;
+    border-bottom: 1px solid gray;
+	}
+	.lineUnityText {
+		float: left;
+	    width: 154px;
+	    margin-left: 25px;
+	    color: black;
+	    font-size: 20px;
+	    font-weight: bold;
+	}
+	.insert {
+		margin-left: 178px;
+	    color: #666;
+	    font-size: 22px;
+		
+	}
+	
+	.line_p4{
+		display:inline-block;
+	}
+/* 회원정보 변경*/
+
+/*회원 탈퇴*/
+.dropMember1 {
+	    width: 750px;
+	    height: 93px;
+	    margin: auto;
+	    background-image: url(../Images/mypageDropPic/회원탈퇴1.png);
+	    background-repeat:no-repeat;
+	    background-size: 748px 91px;
+	}
+	.dropMember2 {
+	    width: 750px;
+	    height: 190px;
+	    margin: auto;
+	    background-image: url(../Images/mypageDropPic/회원탈퇴2.png);
+	    background-size: 752px 190px;
+		background-repeat:no-repeat;	    
+	    margin-top: 22px;
+	}
+	.dropMemberCheck {
+		margin-top:48px;
+		margin-bottom: 18px;
+	}
+	.clickButton { /* change into랑 똑같고 다른슬라이드확인도 이렇게 고치거라*/
+      	width: 164px;
+	    background-color: #f14f4f;
+	    color: #fff;
+	    border: 1px solid #da3a3a;
+	    margin: auto;
+	    padding: 8px 20px;
+	    cursor: pointer;
+	    text-align: center;
+	}
+/*회원탈퇴*/
+
+
+/* 주문배송조회 있을떄 & 없을떄 */
+.checkOrderSecondLine {
+		background-color:#f5f5f5;
+		padding:20px;
+		font-size:20px;
+	}
+	.checkOrderDate {
+		border:1px solid black;
+		padding: 4px 8px;
+		border-radius: 5px;
+		cursor:pointer;
+	}
+	.checkOrderDate:hover{
+		text-decoration: underline;
+	}
+	.noOrderList {
+		text-align:center;
+		font-size:25px;
+		font-weight:bold;
+		color:black;
+	}
+	.checkOrderThirdLine {
+		margin: 20px auto 40px;
+	}
+/* 주문배송조회 있을떄 & 없을떄 */
+/* 주문배송 없을떄*/
+.checkOrderThirdLineImage {
+		background-image: url(../Images/orderListPic/주문내역없음.png);
+		background-position: center;
+		background-repeat:no-repeat;
+		margin-bottom: 20px;
+		height:112px;
+	}
+	.checkOrderFourthLine {
+		text-align:center;
+	}
+	.goMainPage {
+        font-size: 20px;
+	    padding: 16px 50px;
+	    border: 1px solid #e0e0e0;
+	    background-color: #f5f5f5;
+	    cursor: pointer;
+	    font-family: 'Cafe24Ssurround';
+	    letter-spacing: 2px;
+	    border-radius: 15px;
+	}
+/*주문배송 없을떄 */
+
+/*주문배송 있을때 */
+	.orderDate{
+		margin-left: 10px;
+		font-size:20px;
+		color:black;
+		font-weight:bold;
+	}
+	.orderNumber{
+		font-size:14px;
+		color:gray;
+		font-weight:bold;
+	}
+	.orderListDetail {
+	    padding: 12px 0px;
+	    text-align: center;
+	    background-color: #ecc8c8;
+	    border: none;
+   	    border-radius: 29px;
+	    margin: 10px 0px;
+	    height: 122px;
+	}
+	.orderListDetailFirst{
+	    float: left;
+	    width: 175px;
+	    height: 130px;
+	}
+	.orderListDetailSecond{
+		text-align: left;
+	    float: left;
+	    width: 365px;
+	    height: 130px;
+	}	
+	.orderListDetailThird{
+   		float: left;
+	    width: 135px;
+	    height: 130px;
+	}
+	.orderListDetailFourth{
+		float: left;
+	    height: 130px;
+	    width: 110px;
+	    line-height: 123px;
+	}
+	.orderListDatailOrderNumber{
+		height: 50px;
+	    line-height: 58px;
+	}
+	.orderListDetailOrderDate{
+	    height: 100px;
+   		line-height: 67px;
+	}
+	
+	.mainName{
+		color: white;
+	    font-size: 16px;
+	    display: inline-block;
+	    margin-left: 20px;
+	    margin-top: 20px;
+	    background-color: green;
+	    font-weight: bold;
+	}
+	.productPosition{
+    	left: 109px;
+	    position: absolute;
+	    display: inline-block;
+	    top: 52px;
+	}
+/*주문배송 있을떄 */
+ 
+/*마이페이지 찜목록 있을때*/
+.myPageWishListProDuct{
+    margin: 10px 0 0 20px;
+    width: 237px;
+    height: 341px;
+    display: inline-block;
+    padding: 8px 0px;
+}
+.removeLike{
+	cursor:pointer;
+	display: inline-block;
+    text-align: right;
+    width: 11px;
+    margin-left: 214px;
+}
+.myPageWishListImg{	
+	cursor:pointer;
+	height: 175px; width: 213px; margin-bottom: 8px;
+}
+
+
+
+    .myPageWishListProductName{
+	    letter-spacing: -0.5px;
+	    font-size: 14px;
+	    margin-top: 4px;
+    }
+    .myPageWishListProductPrice{
+	    font-size: 11px;
+	    margin-top: 4px;
+	    font-weight: bold;
+	    color: gray;
+	    letter-spacing: 0.5px;
+    }
+/*마이페이지 찜목록 있을때*/

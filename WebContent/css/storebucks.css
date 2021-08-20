@@ -1,0 +1,260 @@
+@charset "UTF-8";
+	.main_content {
+		width:100%;	
+		margin:0 auto; 		
+	}
+	.util_menu_g a {
+		text-decoration-line: none;
+		color:black;
+	}
+	.MainContent {
+		width:100%;
+		margin: 0 auto;
+		margin-top:30px;
+	}
+	.tum1_thmb_div {
+		position: absolute; 
+		right: 0;
+		bottom: 4px;
+		left: 0;
+	}
+	.tum1_thmb_div>div>a {
+		 position: relative; 
+		 display: block; 
+		 padding: 1px 40px 1px 15px;
+		 text-decoration: none;
+	}
+	.thmb_comment p {
+		font-size: 13px; 
+		letter-spacing: -0.33px; 
+		color: #fff;"
+	}
+	.img_thmb_div {
+		border-bottom-right-radius:16px; 
+		border-bottom-left-radius:16px; 
+		background-color: rgba(0, 0, 0, 0.45);
+	}
+	.sbux_tab_list {
+ 		display:inline-block;
+ 		height: 67px;
+	    -webkit-box-sizing: border-box;
+	    box-sizing: border-box;
+	    text-align: center;
+	}
+	.sbux_tab_item {
+		display: block;
+	    font-size: 15px;
+	    color: #1e3932;
+	    letter-spacing: -0.3px;	 
+	    margin-left:20px;   	   
+	}
+	.sbux_tab_item:first-child {
+		margin-left:-71px;
+	}
+	.sbux_best_item1 {
+		height:1600px;
+		margin:0 auto;
+		display:none;	
+	}
+	.walking_girl{
+		top: 138px;
+	}
+	.walking_girl>img {
+	    position: absolute;  
+	    top:81px; 
+	    width: 70px;
+	    height: 50px;	    
+	    z-index:5;
+	}
+	.sbux_best_item1>ul>li {
+	    float: left;
+	    margin-left: 0px;
+	    list-style: none;
+	}
+	
+	
+	/* slide6 */
+	#body_Category {
+		overflow:hidden;
+		width: 1180px;
+	    margin: 0 auto;	
+	}
+	.search_wrap2 {
+		position: relative;
+    	border: 1px solid #AFC1D3;
+    	border-radius: 18px;
+    	width: 318px;
+    	left: 180px;
+    	top: 38px;
+    	height: 36px;  
+    	float:right;
+    	margin-right: 200px;
+    	margin-top:10px;
+	}
+	input#inputSearch2 {       /*img.logo>input*/
+		border: none;		
+	    margin-top: 5px;
+	    margin-left: 10px;
+	    line-height: 24px;
+	    width: 250px;
+	}
+	input#inputSearch2:focus {
+		outline:none;
+	}	
+	.ct_Title {
+	    text-align: center;
+	    border-bottom: 3px solid green;
+	    padding: 0 0 20px;
+	}
+	.ct_Product {				
+		text-align: right;
+    font-size: 22px;
+    color: #666;
+	}
+	.ct_Menu {		
+		width:220px;		
+		margin-top:30px;
+    	background-color: #fff;
+    	float:right;    	
+	}
+	.Brand {	
+		padding: 10px 0px;	
+	}
+	.brand_sch {
+		height: 28px;
+    	padding-right: 37px;
+    	position: relative;
+	    height: 30px;
+	    margin-bottom: 5px;
+	    border: 1px solid #e1e1e1;	   
+	    box-sizing: border-box;
+	}
+	.brand_sch>input {
+		width: 100%;
+	    height: 27px;
+	    line-height: 27px;
+	    padding: 0 10px;	    
+	    box-sizing: border-box;
+	    border: 0;
+	    font-size: 12px;
+	    color: #969696;
+	}
+	.brand_sch>input:focus {
+		outline:none;
+	}
+	.srch_btn2 {
+		cursor:pointer;
+		border: none;
+	 	width:30px;
+	 	height:30px;
+	 	position:absolute;
+	 	margin: -1px 0px 0px 2px;
+		background: url(http://ui.ssgcdn.com/ui/mnw/mnstarbucks/img/ico_search.png) no-repeat 50% 50%;
+	}
+	.product_DL {		
+    	border-top: 1px solid #222;  
+    	padding-bottom:24px;
+	}	
+	.Benefits {		
+    	border-top: 1px solid #222;  
+    	padding-bottom:24px;
+	}
+	.price_search {				
+		height:30px;
+		display:inline-block;
+	}
+	.brand_name:focus {
+		outline:none;
+	}
+	.price_label {		
+		position:absolute;
+		left:0;
+		top:0;
+		right:0;
+		text-align:right;
+		padding:5px 10px;
+		color:#666;
+		font-size:11px;						
+	}	
+	.won {
+		font-size:11px;
+	    color:#666;
+	}
+	.wave{			    
+       	font-size: 21px;
+    	color: #666;
+ 		margin: 0px 6px;
+	}
+	.btn_search {
+		position: absolute;
+	    right: 2px;
+	    width: 30px;
+	    height: 32px;
+	    border: 1px solid #e1e1e1;
+	    background: url(http://ui.ssgcdn.com/ui/mnw/mnstarbucks/img/ico_search.png) no-repeat 50% 50%;
+	}
+	.delivery_top {
+		positon:relative;
+		margin:20px 0;
+		font-size:13px;
+		line-height:19px;
+		min-height:27px;
+	}
+	.main_Products {		
+	    width: 910px;	    
+	    float:left;	   
+	}
+	.selectOption{
+		margin-right: 33px;
+		font-size: 17px;
+	    width: 127px;
+	    height: 44px;
+	    border-radius: 12px;
+	    background-color: gray;
+	}
+	.categoryEach{
+		vertical-align: top;
+       	width: 280px;
+	    height: 358px;
+	    padding: 10px;
+	    display: inline-block;
+	}
+	/* slide 5 */
+	.login_content {
+		text-align:center;
+	    width: 700px;
+	    margin: 60px auto;
+	}	
+	.login_sec {
+	    display: inline-block;
+	    width: 412px;
+	    padding: 15px;
+	}
+	
+	.login_id .login_pw {
+		margin-top:0px;	
+		width:330px;	
+	}
+	.sbuck_txt{
+ 	 	width: 90%;
+    height: 50px;
+    font-size: 25px;
+	}
+	.login_pw {
+		margin-top:10px;
+	}		
+	.f2 {
+		width: 100px;
+	    margin-right: 48px;	    	    
+	}
+	.login_btn_orange {
+		cursor:pointer;
+		border-radius: 15px;
+	    width: 380px;
+	    border: 1px solid #ff5b59;
+	    background: #ff5b59;
+	    color: #fff;
+	    height: 52px;
+	    font-size: 32px;
+	    margin-top: 20px;
+	}
